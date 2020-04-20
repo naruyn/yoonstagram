@@ -1,5 +1,5 @@
 {
-  "name": "yoonstagram",
+  "name": "naruyn",
   "version": "1.0.0",
   "repository": "https://github.com/naruyn/yoonstagram.git",
   "license": "MIT",
@@ -9,7 +9,7 @@
     "@babel/preset-env": "^7.4.4",
     "dotenv": "^7.0.0",
     "graphql-tools": "^4.0.4",
-    "graphql-yoga": "^1.17.4",
+    "graphql-yoga": "^1.18.3",
     "merge-graphql-schemas": "^1.5.8",
     "morgan": "^1.9.1",
     "prisma-client-lib": "^1.32.0"
@@ -22,5 +22,8 @@
     "generate": "prisma generate",
     "prisma": "yarn run deploy && yarn run generate",
     "dev": "nodemon --exec babel-node src/server.js"
-  }
+  },
+  "description": "Nomadcoders Instagram clone coding",
+  "main": "index.js",
+  "author": "naruyn <naruyn@naver.com>"
 }
