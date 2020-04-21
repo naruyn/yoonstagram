@@ -4,7 +4,7 @@ Nomadcoders Instagram clone coding
 
 # Need Things
 - [X] Create Account
-- [ ] Request SecretKey
+- [X] Request SecretKey
 - [ ] Confirm SecretKey
 - [ ] Like/Unlike Post
 - [ ] Comment on a Post

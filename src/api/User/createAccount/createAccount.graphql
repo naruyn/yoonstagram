@@ -5,7 +5,7 @@ type Mutation {
         , firstName : String
         , lastName : String
         , bio : String
-    ) : User!
+    ): User!
 }
 
 type Query {
