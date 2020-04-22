@@ -1,13 +1,14 @@
 # yoonstagram
+
 Nomadcoders Instagram clone coding
 
-
 # Need Things
-- [X] Create Account
-- [X] Request SecretKey
-- [ ] Confirm SecretKey
-- [ ] Like/Unlike Post
-- [ ] Comment on a Post
+
+- [x] Create Account
+- [x] Request SecretKey
+- [x] Confirm SecretKey
+- [x] Like/Unlike Post
+- [x] Comment on a Post
 - [ ] Search by user
 - [ ] Search by location
 - [ ] See user profile
