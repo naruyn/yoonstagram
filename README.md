@@ -9,12 +9,12 @@ Nomadcoders Instagram clone coding
 - [x] Confirm SecretKey
 - [x] Like/Unlike Post
 - [x] Comment on a Post
-- [ ] Search by user
-- [ ] Search by location
-- [ ] See user profile
-- [ ] Follow/Unfollow user
-- [ ] See the Full Photo
-- [ ] Edit my profile
-- [ ] Upload a photo
-- [ ] Edit a photo ( delete )
+- [x] Search by user
+- [x] Search by location
+- [x] Follow/Unfollow user
+- [x] Edit my profile
+- [x] See user profile
+- [x] See the Full Post
+- [ ] Upload a Post
+- [ ] Edit a Post ( delete )
 - [ ] See the feed

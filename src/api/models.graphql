@@ -11,16 +11,22 @@ type User {
 	likes: [Like!]!
 	comments: [Comment!]!
 	loginSecret: String
+
+	fullName: String!
+	amIFollowing: Boolean!
+	itsMe: Boolean!
 }
 
 type Post {
 	id: ID!
 	location: String
-	caption: String
+	caption: String!
 	user: User!
 	files: [File!]!
 	likes: [Like!]!
 	comments: [Comment!]!
+
+	isLiked: Boolean!
 }
 
 type Like {
@@ -40,4 +46,9 @@ type File {
 	id: ID!
 	url: String!
 	post: Post!
+}
+
+type UserProfile {
+	user: User!
+	posts: [Post!]!
 }
