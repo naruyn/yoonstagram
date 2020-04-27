@@ -18,3 +18,7 @@ Nomadcoders Instagram clone coding
 - [ ] Upload a Post
 - [ ] Edit a Post ( delete )
 - [ ] See the feed
+- [ ] See rooms
+- [ ] See room
+- [ ] Send private Message
+- [ ] Receive Message( realtime )
