@@ -18,7 +18,7 @@ type Post {
   location: String
   caption: String!
   user: User!
-  files: [File!]!
+  files: [File!]! 
   likes: [Like!]!
   comments: [Comment!]!
 }
@@ -26,18 +26,18 @@ type Post {
 type Like {
   id: ID! @id
   user: User!
-  post: Post!
+  post: Post 
 }
 
 type Comment {
   id: ID! @id
   text: String!
   user: User!
-  post: Post!
+  post: Post
 }
 
 type File {
   id: ID! @id
   url: String!
-  post: Post!
+  post: Post
 }
