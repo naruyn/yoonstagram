@@ -15,10 +15,10 @@ Nomadcoders Instagram clone coding
 - [x] Edit my profile
 - [x] See user profile
 - [x] See the Full Post
-- [ ] Upload a Post
-- [ ] Edit a Post ( delete )
-- [ ] See the feed
-- [ ] See rooms
-- [ ] See room
-- [ ] Send private Message
-- [ ] Receive Message( realtime )
+- [x] Upload a Post
+- [x] Edit a Post ( delete )
+- [x] See the feed
+- [x] See rooms
+- [x] See room
+- [x] Send Message
+- [x] Receive Message( realtime )

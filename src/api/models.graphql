@@ -1,5 +1,6 @@
 type User {
 	id: ID!
+	avartar: String
 	username: String!
 	email: String!
 	firstName: String
@@ -11,6 +12,8 @@ type User {
 	likes: [Like!]!
 	comments: [Comment!]!
 	loginSecret: String
+	createdAt: String
+	updatedAt: String
 
 	fullName: String!
 	isFollowing: Boolean!
@@ -25,6 +28,8 @@ type Post {
 	files: [File!]!
 	likes: [Like!]!
 	comments: [Comment!]!
+	createdAt: String
+	updatedAt: String
 
 	isLiked: Boolean!
 	likeCount: Int!
@@ -34,6 +39,8 @@ type Like {
 	id: ID!
 	user: User!
 	post: Post!
+	createdAt: String
+	updatedAt: String
 }
 
 type Comment {
@@ -41,15 +48,32 @@ type Comment {
 	text: String!
 	user: User!
 	post: Post!
+	createdAt: String
+	updatedAt: String
 }
 
 type File {
 	id: ID!
 	url: String!
 	post: Post!
+	createdAt: String
+	updatedAt: String
 }
 
-type UserProfile {
-	user: User!
-	posts: [Post!]!
+type Room {
+	id: ID!
+	participants: [User!]!
+	messages: [Message!]!
+	createdAt: String
+	updatedAt: String
+}
+
+type Message {
+	id: ID!
+	text: String!
+	from: User!
+	to: User!
+	room: Room!
+	createdAt: String
+	updatedAt: String
 }
