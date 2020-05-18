@@ -11,6 +11,6 @@ export default {
 			} else {
 				throw Error("Wrong email/secret combination");
 			}
-		},
-	},
+		}
+	}
 };
