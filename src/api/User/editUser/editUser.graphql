@@ -5,6 +5,6 @@ type Mutation {
 		firstName: String
 		lastName: String
 		bio: String
-		avartar: String
+		avatar: String
 	): User!
 }
