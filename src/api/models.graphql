@@ -33,6 +33,7 @@ type Post {
 
 	isLiked: Boolean!
 	likeCount: Int!
+	commentCount: Int!
 }
 
 type Like {
