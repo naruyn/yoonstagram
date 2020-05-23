@@ -14,20 +14,21 @@ export default {
 							id: user.id
 						},
 						{
-							followers_some: {
+							following_some: {
 								id: id
 							}
 						}
 					]
 				});
-
+				console.log(id, user.id);
+				console.log(existingFollow);
 				if (existingFollow) {
 					await prisma.updateUser({
 						where: {
 							id: user.id
 						},
 						data: {
-							followers: {
+							following: {
 								disconnect: {
 									id
 								}
@@ -40,7 +41,7 @@ export default {
 							id: user.id
 						},
 						data: {
-							followers: {
+							following: {
 								connect: {
 									id
 								}
