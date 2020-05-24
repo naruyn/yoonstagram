@@ -5,8 +5,8 @@ export default {
 	Query: {
 		seeUser: async (_, args, { request }) => {
 			isAuthenticated(request);
-			const { id } = args;
-			return prisma.user({ id });
+			const { username } = args;
+			return prisma.user({ username });
 		}
 	}
 };
